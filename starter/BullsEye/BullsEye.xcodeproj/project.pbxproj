@@ -15,6 +15,7 @@
 		6348DEF626CAC0E1002F8FE3 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348DEF526CAC0E1002F8FE3 /* BullsEyeTests.swift */; };
 		6348DF0026CB5172002F8FE3 /* BullsEyeSlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348DEFF26CB5172002F8FE3 /* BullsEyeSlowTests.swift */; };
 		6348DF0226CBC8F8002F8FE3 /* BullsEyeFakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348DF0126CBC8F8002F8FE3 /* BullsEyeFakeTests.swift */; };
+		6348DF0426CBDE7E002F8FE3 /* BullsEyeMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348DF0326CBDE7E002F8FE3 /* BullsEyeMockTests.swift */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 		6348DEF726CAC0E1002F8FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6348DEFF26CB5172002F8FE3 /* BullsEyeSlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeSlowTests.swift; sourceTree = "<group>"; };
 		6348DF0126CBC8F8002F8FE3 /* BullsEyeFakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeFakeTests.swift; sourceTree = "<group>"; };
+		6348DF0326CBDE7E002F8FE3 /* BullsEyeMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeMockTests.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				6348DEF726CAC0E1002F8FE3 /* Info.plist */,
 				6348DEFF26CB5172002F8FE3 /* BullsEyeSlowTests.swift */,
 				6348DF0126CBC8F8002F8FE3 /* BullsEyeFakeTests.swift */,
+				6348DF0326CBDE7E002F8FE3 /* BullsEyeMockTests.swift */,
 			);
 			path = BullsEyeTests;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6348DF0426CBDE7E002F8FE3 /* BullsEyeMockTests.swift in Sources */,
 				6348DEF626CAC0E1002F8FE3 /* BullsEyeTests.swift in Sources */,
 				6348DF0026CB5172002F8FE3 /* BullsEyeSlowTests.swift in Sources */,
 				6348DF0226CBC8F8002F8FE3 /* BullsEyeFakeTests.swift in Sources */,
